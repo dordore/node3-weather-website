@@ -1,7 +1,5 @@
 //const { response } = require("express");
 
-console.log('client side JS file is loaded');
-
 // fetch('http://localhost:3001/weather?address=!').then((response) => {
 //     response.json().then((data) => {
 //         if (data.error){
