@@ -31,7 +31,7 @@ weatherForm.addEventListener('submit', (e) => {
             messageTwo.textContent = data.error;
         } else {
             messageTwo.textContent = '';
-            messageOne.textContent = `the location: ${data.address}, the temperature in it is: ${data.forecast.temperature}`;    
+            messageOne.textContent = `the location: ${data.address}, the temperature in it is: ${data.forecast.temperature}, the humidity is: ${data.forecast.humidity}`;    
         }
 
     });

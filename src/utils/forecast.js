@@ -16,7 +16,8 @@ const forecast = (alt, long, callback) => {
                 } else {
                      callback(undefined, {
                         temperature: response2.body.current.temperature,
-                        chanceForRain: response2.body.current.precip
+                        chanceForRain: response2.body.current.precip,
+                        humidity: response2.body.current.humidity
                     });
                 }
             });
